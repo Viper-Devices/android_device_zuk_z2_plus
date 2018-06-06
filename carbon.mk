@@ -25,6 +25,7 @@ TARGET_DENSITY := xxhdpi
 TARGET_INCLUDE_ARCORE := true
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/carbon/config/common.mk)
+$(call inherit-product, vendor/carbon/config/gsm.mk)
 
 # Screen Resolution for the Bootanimation
 TARGET_SCREEN_HEIGHT := 1920

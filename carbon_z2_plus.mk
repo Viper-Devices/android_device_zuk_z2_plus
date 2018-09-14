@@ -51,6 +51,6 @@ BUILD_FINGERPRINT:="ZUK/z2_plus/z2_plus:7.0/NRD90M/3.1.117_171110:user/release-k
     
 TARGET_VENDOR := zuk
 
-# Bootleg Device Maintainers
+# Carbon Device Maintainer
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DEVICE_MAINTAINERS="cyproto"

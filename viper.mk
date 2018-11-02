@@ -24,15 +24,15 @@ TARGET_ARCH := arm64
 TARGET_DENSITY := xxhdpi
 TARGET_INCLUDE_ARCORE := true
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/carbon/config/common.mk)
-$(call inherit-product, vendor/carbon/config/gsm.mk)
+$(call inherit-product, vendor/viper/config/common_full_phone.mk)
+#$(call inherit-product, vendor/carbon/config/gsm.mk)
 
 # Screen Resolution for the Bootanimation
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := carbon_z2_plus
+PRODUCT_NAME := viper_z2_plus
 PRODUCT_DEVICE := z2_plus
 PRODUCT_BRAND := ZUK
 PRODUCT_MODEL := Z2 Plus
@@ -51,6 +51,6 @@ BUILD_FINGERPRINT:="ZUK/z2_plus/z2_plus:7.0/NRD90M/3.1.117_171110:user/release-k
     
 TARGET_VENDOR := zuk
 
-# Carbon Device Maintainer
+# Device Maintainer
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DEVICE_MAINTAINERS="cyproto"

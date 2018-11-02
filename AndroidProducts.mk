@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/carbon_z2_plus.mk
+    $(LOCAL_DIR)/viper_z2_plus.mk

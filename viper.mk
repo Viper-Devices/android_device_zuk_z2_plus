@@ -48,9 +48,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="z2_plus-user 7.0 NRD90M 3.1.117_171110 release-keys"
 
 BUILD_FINGERPRINT:="ZUK/z2_plus/z2_plus:7.0/NRD90M/3.1.117_171110:user/release-keys"
-    
+
 TARGET_VENDOR := zuk
 
-# Device Maintainer
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    DEVICE_MAINTAINERS="cyproto"
+#Official ViperOS
+VIPER_BUILD_TYPE := OFFICIAL
